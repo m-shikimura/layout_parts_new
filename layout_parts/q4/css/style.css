@@ -10,10 +10,11 @@
   display: table;
   width: 100%;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
-.box_bar:last-child {
-  margin-top: 20px;
+.box_bar:first-child {
+  margin-top: 0;
 }
 
 .box_contents {
@@ -22,8 +23,8 @@
   text-align: center;
 }
 .orange_box {
-  width: 100px;
   background-color: #fdc8b8;
+  width: 100px;
 }
 
 .purple_box {
