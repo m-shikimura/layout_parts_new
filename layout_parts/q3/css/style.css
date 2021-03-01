@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.food_diary {
+  width: 100%;
+}
 
+.food_diary th {
+  padding: 10px;
+  width: calc(100%/6);
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: #fff;
+  border: solid #dedede 1px;  
+}
+
+.food_diary td {
+  padding: 10px;
+  width: calc(100%/6);
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  border: solid #dedede 1px;  
+}
+
+.food_diary td:first-child {
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: #fff;
+}
+
+.food_diary tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+
+.food_diary tr:last-child {
+  border-top: dashed #000 2px;
+}
 /* 回答はここに書いてね */
