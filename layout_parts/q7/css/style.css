@@ -13,10 +13,11 @@
   float: left;
   width: 225px;
   box-sizing: border-box;
+  margin-left: 50px;
 }
 
-.float_box:last-child {
-  margin-left: 50px;
+.float_box:first-child {
+  margin-left: 0px;
 }
 
 /* Q7-2 */
@@ -28,10 +29,11 @@
   display: table-cell;
   width: 225px;
   vertical-align: middle;
+  padding-left: 50px;
 }
 
-.table_box:last-child {
-  padding-left: 50px;
+.table_box:first-child {
+  padding-left: 0px;
 }
 
 /* Q7-3 */
@@ -45,10 +47,11 @@
   box-sizing: border-box;
   vertical-align: middle;
   font-size: 16px;
+  margin-left: 50px;
 }
 
-.inlineblock_box:last-child {
-  margin-left: 50px;
+.inlineblock_box:first-child {
+  margin-left: 0px;
 }
 
 /* Q7-4 */
@@ -65,7 +68,6 @@
 
 /* Q7-5 */
 .margin_inner {
-  width: 100%;
   font-size: 0;
 }
 
